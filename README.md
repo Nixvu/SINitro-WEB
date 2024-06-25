@@ -16,10 +16,10 @@ dari situlah ide saya untuk membuat projek ini dan juga sebagai projek tugas akh
 
 ## Tentang Saya
 
-Nama : Febriana
-Nim  : 20220910055
-Kelas: SINFC-01-2022
-Seorang mahasiswa aktif yang mengablil program studi sistem informasi yang berkuliah di fakultas ilmu komputer universitas kuningan
+Nama : Febriana ,
+Nim  : 20220910055 ,
+Kelas: SINFC-01-2022 ,
+seorang mahasiswa aktif yang mengablil program studi sistem informasi yang berkuliah di fakultas ilmu komputer universitas kuningan
 
 ## Recuitments!!
 Sebelum menjalankan dan mendownload reposity ini siapkan terlebih dahulu kebutuhan berikut
@@ -27,18 +27,6 @@ Sebelum menjalankan dan mendownload reposity ini siapkan terlebih dahulu kebutuh
 2. **[Php Versi 8.2](https://tighten.co)**
 3. **[Apache 8.2](https://tighten.co)** (Opsional!!)
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Live Demo
+Silahkan klik register karena default belum ada user akun
+https://sinitro.000webhostapp.com/register
