@@ -7,9 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Tentang Projek
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+SINitro adalah sebuah projek berbasis web yang berjalan dengan framework laravel 11 dan juga dengan tampilan SBADMIN sebagai admin dashboard
+ide pembuatan projek ini bermula ketika suatu ketika saya mengalami kepis ban tepat dengan stasiun pengisian angin nitogen yang selalu bersebelahan
+dengan stasiun pengisian bahan bakar atau pom bensin, melihat petugas pengisian angin nitrogen yang masih menginput transaksi secara manual (tulis tanggan)
+dari situlah ide saya untuk membuat projek ini dan juga sebagai projek tugas akhir pada mata kuliah pemograman web 2.
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
