@@ -23,24 +23,9 @@ Seorang mahasiswa aktif yang mengablil program studi sistem informasi yang berku
 
 ## Recuitments!!
 Sebelum menjalankan dan mendownload reposity ini siapkan terlebih dahulu kebutuhan berikut
-1. Laragon / Xampp / Wampp Control Panel (Sebagai Local Server)
-2. Php versi 8.2
-   
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+1. **[Laragon](https://vehikl.com/)** / **[Xampp](https://vehikl.com/)** / **[Wampp](https://vehikl.com/)**
+2. **[Php Versi 8.2](https://tighten.co)**
+3. **[Apache 8.2](https://tighten.co)** (Opsional!!)
 
 ## Contributing
 
