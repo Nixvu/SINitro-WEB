@@ -15,6 +15,7 @@ Route::get('register', [AuthController::class, 'register'])->name('register');
 Route::post('register', [AuthController::class, 'registerSave'])->name('register.save');
 Route::post('login', [AuthController::class, 'loginAksi'])->name('login.aksi');
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
+
 Route::get('/dashboard', [DashboardController::class, 'showDashboard'])->name('dashboard');
 Route::get('/pelanggan', [PelangganController::class, 'Pelanggan'])->name('pelanggan');
 Route::get('/profile', [ProfileController::class, 'Profile'])->name('profile');

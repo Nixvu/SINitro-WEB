@@ -22,14 +22,14 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i
+                    <li class="nav-item"><a class="nav-link" href="{{ route('dashboard') }}"><i
                                 class="fas fa-tachometer-alt"></i><span>&nbsp;Dashboard</span></a></li>
                     <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link" href="table.html"><i
+                    <li class="nav-item"><a class="nav-link" href="{{ route('pelanggan') }}"><i
                                 class="fas fa-table"></i><span>&nbsp;Pelanggan</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="profile.html"><i
+                    <li class="nav-item"><a class="nav-link" href="{{ route('profile') }}"><i
                                 class="far fa-user-circle"></i><span>&nbsp;Profile</span></a><a class="nav-link"
-                            href="login.html"><i class="far fa-caret-square-left"></i><span>&nbsp;Keluar</span></a></li>
+                            href="{{ route('logout') }}"><i class="far fa-caret-square-left"></i><span>&nbsp;Keluar</span></a></li>
                 </ul>
                 <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0"
                         id="sidebarToggle" type="button"></button></div>
@@ -61,7 +61,7 @@
                 <div class="container-fluid">
                     <div class="d-sm-flex justify-content-between align-items-center mb-4">
                         <h3 class="text-dark mb-0">Halo, Admin</h3><a
-                            class="btn btn-primary btn-sm d-none d-sm-inline-block" role="button" href="table.html"><i
+                            class="btn btn-primary btn-sm d-none d-sm-inline-block" role="button" href="{{ route('pelanggan') }}"><i
                                 class="fas fa-caret-square-left text-white fa-sm text-white-50"></i>&nbsp; Kembali</a>
                     </div><!-- Start: Chart -->
                     <div class="row">

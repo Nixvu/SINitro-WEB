@@ -22,7 +22,7 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"><a class="nav-link active" href="index.html"><i
+                    <li class="nav-item"><a class="nav-link active" href="<?php echo e(route('dashboard')); ?>"><i
                                 class="fas fa-tachometer-alt"></i><span>&nbsp;Dashboard</span></a></li>
                     <li class="nav-item"></li>
                     <li class="nav-item"><a class="nav-link" href="<?php echo e(route('pelanggan')); ?>"><i
