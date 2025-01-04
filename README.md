@@ -11,20 +11,54 @@
 
 SINitro (Sistem Informasi Nitrogen) adalah proyek web sederhana yang dibangun menggunakan framework Laravel. Proyek ini dirancang untuk mencatat transaksi pengisian angin nitrogen. SINitro dikembangkan sebagai tugas akhir mata kuliah Pemrograman Web 2.
 
-## Requitments & Installasi
+## Requitments
+Pastikan Anda memiliki hal-hal berikut yang telah diinstal di sistem Anda sebelum memulai:
+- **XAMPP / LARAGON**: Sebgai local server.
+- **Git** (Opsional): Untuk mengelola kode.
+- **Composer**: Untuk mengelola dependensi PHP.
+- **PHP**: Versi minimal 8.2.27
+- **Database**: MySQL.
 
-1. XAMPP atau LARAGON
-2. PHP VERSION 8.2.27
-3. Apache 2.4.62
+## Instalasi
+Ikuti langkah-langkah berikut untuk menginstal project ini secara lokal:
+1. **Clone repositori**:
+   ```bash
+   git clone https://github.com/Nixvu/SINitro-WEB.git
+   ```
+   Gantilah `<repository-url>` dengan URL repositori GitHub Anda.
 
-1. Clone Project ini lalu simpan di folder htdoc atau www
-2. Buka visual studio code dan buke folder dari project
-3. Ketik perintah di terminal 
+2. **Masuk ke direktori project**:
+   ```bash
+   cd <project-folder>
+   ```
+   Gantilah `<project-folder>` dengan nama folder project Anda.
+
+3. **Instal dependensi menggunakan Composer**:
+   ```bash
+   composer install
+   ```
+
+4. **Generate application key**:
+   ```bash
+   php artisan key:generate
+   ```
+
+5. **Migrasi dan Seeders database**:
+   Jalankan perintah berikut untuk membuat tabel baru, dan mengisi data awal:
+   ```bash
    php artisan migrate
-   akan ditanyakan membuat database sinitro pilih yes
-   lalu ketik perintah
-   php artisan db:seed layananseeders
-4. jalan project dengan
+   php artisan db:seed layananseeder
+   ```
+
+6. **Jalankan server lokal**:
+   Untuk menjalankan server pengembangan lokal, gunakan perintah berikut:
+   ```bash
    php artisan serve
-   dan buka di browser http://127.0.0.1:8000
-5. lalu pilih daftar karna default belum memiliki akun untuk   petugas maupun admin.
+   ```
+
+7. **Akses aplikasi**:
+   Buka browser Anda dan kunjungi [http://127.0.0.1:8000](http://127.0.0.1:8000) untuk melihat aplikasi Anda.
+
+## Catatan Tambahan
+- Pastikan file `.env` sudah disesuaikan dengan konfigurasi database Anda.
+- Jika Anda menghadapi kendala, pastikan Anda membaca log error dan menyelesaikan masalah yang disebutkan.
