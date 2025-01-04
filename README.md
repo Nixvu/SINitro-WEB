@@ -9,7 +9,7 @@
 
 ## Tentang  Projek
 
-SINitro (Sistem Informasi Nitrogen) adalah proyek web sederhana yang dibangun menggunakan framework Laravel. Proyek ini dirancang untuk mencatat transaksi pengisian angin nitrogen. SINitro dikembangkan sebagai tugas akhir mata kuliah Pemrograman Web 2.
+SINitro (Sistem Informasi Nitrogen) adalah proyek web sederhana yang dibangun menggunakan framework Laravel. Proyek ini dirancang untuk mencatat transaksi pengisian angin nitrogen. SINitro dikembangkan sebagai tugas akhir mata kuliah Pemrograman Web 2 yang dibuat oleh Febriana dengan NIM 20220910055.
 
 ## Requitments
 Pastikan Anda memiliki hal-hal berikut yang telah diinstal di sistem Anda sebelum memulai:
